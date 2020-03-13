@@ -21,7 +21,7 @@ const Map = () => {
     });
 
     const _onViewportChange = viewport =>
-        setViewPort({ ...viewport, transitionDuration: 3000 });
+        setViewPort({ ...viewport, transitionDuration: 30 });
 
     return (
         <div style={{ margin: '0 auto' }}>
